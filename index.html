@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/336bc3ce23.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>CACTIC</title>
+  </head>
+  <body>
+    <header id="header" class="flex">
+      <a href="index.html" class="link">
+        <div class="flex" id="logo">
+          <img
+            src="resources/logos/00265 Cactus-03.png"
+            id="header-img"
+            alt="cactus logo"
+          />
+          <h1 id="brand-name">CACTIC</h1>
+        </div>
+      </a>
+      <nav id="nav-bar" class="flex">
+        <a href="#product" class="link"><span>uses</span></a>
+        <a href="#video-embed" class="link"><span>visuals</span></a>
+        <a href="#pricing" class="link"><span>pricing</span></a>
+      </nav>
+    </header>
+    <main>
+      <section id="product" class="flex">
+        <div id="bck-container">
+          <img src="resources/images/cactus-bck.jpg" alt="" />
+        </div>
+        <div id="features">
+          <p>Aesthetically pleasing <span class="dot">.</span></p>
+          <p>beautiful <span class="dot">.</span></p>
+          <p>thorny <span class="dot">.</span></p>
+        </div>
+      </section>
+      <section id="video-embed">
+        <iframe
+          src="https://www.youtube.com/embed/9e10pJn-4QQ?controls=0&amp;start=24"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing" class="flex">
+        <div class="price-box">
+          <img src="resources/images/cactus-in-cyan-pot.jpg" alt="" />
+          <div class="price-info">
+            <p>
+              echinocactus
+            </p>
+            <p>
+              1,500
+            </p>
+          </div>
+        </div>
+        <div class="price-box">
+          <img src="resources/images/cactus-in-cyan-pot.jpg" alt="" />
+          <div class="price-info">
+            <p>
+              mamillaria cactus
+            </p>
+            <p>
+              2,500
+            </p>
+          </div>
+        </div>
+        <div class="price-box">
+          <img src="resources/images/cactus-in-cyan-pot.jpg" alt="" />
+          <div class="price-info">
+            <p>
+              coryphanta
+            </p>
+            <p>
+              3,500
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="order-form">
+        <form action="https://www.freecodecamp.com/email-submit">
+          <label for="email">get a cactus</label>
+          <input
+            type="email"
+            required
+            id="email"
+            name="email"
+            placeholder="Input E-mail Here"
+          />
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>copyright &copy; CACTIC</p>
+    </footer>
+  </body>
+</html>
